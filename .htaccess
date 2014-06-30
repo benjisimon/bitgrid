@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([0-9]+)$ /bitgrid/index.php?map=$1 [L]

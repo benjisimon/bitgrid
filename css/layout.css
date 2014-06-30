@@ -1,0 +1,71 @@
+/*
+ * A CSS file for laying out our app
+ */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: courier new;
+    font-size: 14px
+}
+
+.header, .body, .footer {
+    width: 768px;
+    margin: 20px auto;
+}
+
+.header h1, .header h2 {
+    font-family: Georgia;
+    margin: 5px 0px;
+    padding: 0px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #CCCCCC;
+    font-style: italic;
+}
+
+.header h2 {
+    color: white;
+    font-size: 18px;
+}
+
+.header h2 b {
+    color: #DD0000;
+}
+
+.footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+.grid {
+    width:240px;
+    margin: auto;
+}
+
+.grid .cell {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    margin: 1px;
+    background-color: #333333;
+}
+
+.grid .cell.on {
+    background-color: #FFFFFF;
+}
+
+.clear {
+    clear: both;
+}
+
+.permalink {
+    width: 300px;
+    background-color: #333333;
+    border: 1px solid #666666;
+    color: #DDDDDD;
+}
