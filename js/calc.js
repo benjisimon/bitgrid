@@ -3,6 +3,7 @@
  */
 
 var Calc = {
+  chars: "0123456789ABCDEFGHIJKLKMOPQRSTVW",
   
   mapToDec: function(buffer) {
     var val = 0;
@@ -27,7 +28,7 @@ var Calc = {
 
 
   charToDec: function(char) {
-    var chars = "0123456789ABCDEFGHIJKLKMOPQRSTV";
+    var chars = Calc.chars;
     for(var i = 0; i < chars.length; i++) {
       if(char == chars.substring(i, i+1)) {
         return i;
@@ -38,7 +39,7 @@ var Calc = {
 
 
   decToChar: function(dec) {
-    var chars = "0123456789ABCDEFGHIJKLKMOPQRSTV";
+    var chars = Calc.chars;
     return chars.substring(dec, dec+1);
   },
 
