@@ -3,7 +3,7 @@
  */
 
 var Calc = {
-  chars: "0123456789ABCDEFGHIJKLKMOPQRSTVW",
+  chars: "0123456789ABCDEFGHIJKLMNOPQRSTUV",
   
   mapToDec: function(buffer) {
     var val = 0;
